@@ -1,0 +1,40 @@
+.section-material .image-material {
+	
+	background-image: url(../images/specs/materials_and_finish__ftlkcte51zma_large.jpg);
+	
+}
+
+@media(min-resolution:1.5dppx),
+(min-resolution:144dpi) {
+	.section-material .image-material {
+		background-image: url(../images/specs/materials_and_finish__ftlkcte51zma_large_2x.jpg)
+	}
+}
+
+@media(max-width:1068px) {
+	.section-material .image-material {
+		
+		background-image: url(../images/specs/materials_and_finish__ftlkcte51zma_medium.jpg)
+	}
+}
+
+@media(max-width:1068px)and (min-resolution:1.5dppx),
+(max-width:1068px)and (min-resolution:144dpi) {
+	.section-material .image-material {
+		background-image: url(../images/specs/materials_and_finish__ftlkcte51zma_medium_2x.jpg)
+	}
+}
+
+@media(max-width:734px) {
+	.section-material .image-material {
+		
+		background-image: url(../images/specs/materials_and_finish__ftlkcte51zma_small.jpg)
+	}
+}
+
+@media(max-width:734px)and (min-resolution:1.5dppx),
+(max-width:734px)and (min-resolution:144dpi) {
+	.section-material .image-material {
+		background-image: url(../images/specs/materials_and_finish__ftlkcte51zma_small_2x.jpg)
+	}
+}
